@@ -28,3 +28,12 @@ body {
 .navbar-wrapper .navbar .container {
     width: auto;
 }
+
+.navbar-brand {
+    padding: 0px;
+}
+.navbar-brand>img {
+    height: 100%;
+    padding: 7px;
+    width: auto;
+}
