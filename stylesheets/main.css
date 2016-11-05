@@ -5,6 +5,13 @@
 body {
     padding-bottom: 40px;
     color: #5a5a5a;
+    overflow-x: hidden;
 }
 
 .top-buffer { margin-top:20px; }
+
+.grid-image>img {
+    padding: 2px;
+    width: 100%;
+    height: auto;
+}
