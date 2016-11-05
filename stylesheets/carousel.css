@@ -18,10 +18,10 @@
     position: absolute;
     top: 0;
     left: 0;
+    min-width: 100%;
+    min-height: 500px;
 }
 /*responsive height*/
-
-
 
 @media (min-width: 320px) and (max-width:479px){
     .carousel {
