@@ -1,6 +1,7 @@
 /* Carousel base class */
 
 .carousel {
+    padding-top: 30px;
     height: 500px;
     margin-bottom: 60px;
 }
@@ -45,6 +46,7 @@
         top: 0;
         left: 0;
     }
+
 }
 
 @media (min-width: 480px) and (max-width:769px) {
