@@ -1,6 +1,7 @@
 /* Carousel base class */
 
 .carousel {
+    top : 50px;
     height: 500px;
     margin-bottom: 60px;
 }
@@ -16,11 +17,16 @@
 }
 .carousel-inner > .item > img {
     position: absolute;
-    top: 0;
+    top: 50px;
     left: 0;
     min-width: 100%;
     height: auto;
 }
+
+.carousel-caption{
+    font-size: 28px;
+}
+
 /*responsive height media queries*/
 
 @media (min-width: 320px) and (max-width:479px){
@@ -46,6 +52,10 @@
         left: 0;
     }
 
+    .carousel-caption  h1 ,p{
+        font-size: 50%;
+        line-height: 50%;
+    }
 }
 
 @media (min-width: 480px) and (max-width:769px) {
@@ -70,6 +80,11 @@
         top: 0;
         left: 0;
     }
+
+    .carousel-caption h1 , p {
+        font-size: 60%;
+        line-height: 60%;
+    }
 }
 @media (min-width: 768px) and (max-width: 991px){
     .carousel {
@@ -93,6 +108,11 @@
         top: 0;
         left: 0;
     }
+    .carousel-caption h1 , p {
+        font-size: 70%;
+        line-height: 70%;
+    }
+
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -117,6 +137,12 @@
         top: 0;
         left: 0;
     }
+
+    .carousel-caption h1 , p{
+        font-size: 80%;
+        line-height: 80%;
+    }
+
 }
 @media (min-width: 1200px) {
     .carousel {
@@ -140,7 +166,10 @@
         top: 0;
         left: 0;
     }
+
 }
+
+
 
 
 
