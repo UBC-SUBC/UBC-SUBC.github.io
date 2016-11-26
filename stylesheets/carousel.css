@@ -1,9 +1,8 @@
 /* Carousel base class */
 
 .carousel {
-    top : 50px;
     height: 500px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -32,7 +31,7 @@
 @media (min-width: 320px) and (max-width:479px){
     .carousel {
         height: 180px;
-        margin-bottom: 60px;
+        margin-bottom: 30px;
     }
 
     /* Since positioning the image, we need to help out the caption */
@@ -61,7 +60,7 @@
 @media (min-width: 480px) and (max-width:769px) {
     .carousel {
         height: 250px;
-        margin-bottom: 60px;
+        margin-bottom: 30px;
     }
 
     /* Since positioning the image, we need to help out the caption */
@@ -89,7 +88,7 @@
 @media (min-width: 768px) and (max-width: 991px){
     .carousel {
         height: 320px;
-        margin-bottom: 60px;
+        margin-bottom: 30px;
     }
 
     /* Since positioning the image, we need to help out the caption */
@@ -118,7 +117,7 @@
 @media (min-width: 992px) and (max-width: 1199px) {
     .carousel {
         height: 413.33px;
-        margin-bottom: 60px;
+        margin-bottom: 30px;
     }
 
     /* Since positioning the image, we need to help out the caption */
@@ -147,7 +146,7 @@
 @media (min-width: 1200px) {
     .carousel {
         height: 500px;
-        margin-bottom: 60px;
+        margin-bottom: 30px;
     }
 
     /* Since positioning the image, we need to help out the caption */
