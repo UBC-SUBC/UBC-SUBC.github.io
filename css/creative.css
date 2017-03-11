@@ -474,5 +474,21 @@ body {
     }
 
     .subteam li.teamlead a span{
-        color:#fff;
+        color: #fff;
     }
+
+.popup-block{
+    background: #FFF;
+    padding: 20px 30px;
+    text-align: left;
+    max-width: 80%;
+    margin: 40px auto;
+    position: relative;
+}
+
+.popup-block img{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    border-right: 1px solid #ccc;
+}
