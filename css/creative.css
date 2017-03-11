@@ -492,3 +492,8 @@ body {
     margin: 0 auto;
     border-right: 1px solid #ccc;
 }
+
+.popup-block-dismiss {
+    color: black;
+    float: right;
+}
