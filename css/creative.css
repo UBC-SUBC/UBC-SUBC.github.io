@@ -424,6 +424,9 @@ body {
 .teamlead {
     border: 3px solid #000080;
 }
+.advisor {
+    border: 3px solid #000000;
+}
 .member {
     border: 3px solid transparent;
 }
