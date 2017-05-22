@@ -156,6 +156,9 @@ aside {
 .team-header {
     background-image: url('../img/teamheader.png');
 }
+.sponsor-header {
+    background-image: url('../img/sponsors.jpg');
+}
 header {
   position: relative;
   width: 100%;
