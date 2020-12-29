@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "carousel.css",
+	"sources": [
+		"carousel.scss"
+	],
+	"sourcesContent": [
+		"/*--- carousels ---*/\n\n.carousel {\n\twidth: 80%;\n}\n\n.carousel-control-prev {\n  margin-left: -75px;\n}\n\n.carousel-control-next {\n  margin-right: -75px;\n}\n\n.carousel-control-prev-icon {\n    background-image: url(\"data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='ffffff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E\");\n}\n\n.carousel-control-next-icon {\n    background-image: url(\"data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='ffffff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E\");\n}\n\n.carousel-item img {\n\theight: 450px;\n\tobject-fit: contain;\n\tmargin: 0 auto;\n}\n\n.carousel-item-small img {\n\theight: 300px;\n\tobject-fit: contain;\n\tmargin: 0 auto;\n}\n\n@media only screen and (max-width : 768px) {\n\t.carousel-item img {\n\theight: 275px;\n\tobject-fit: contain;\n\tmargin: 0 auto;\n\t}\n\t\n\t.carousel-control-prev {\n\t\tmargin-left: -50px;\n\t}\n\n\t.carousel-control-next {\n\t\tmargin-right: -50px;\n\t}\n}"
+	],
+	"names": [],
+	"mappings": "AAEA,AAAA,SAAS,AAAC,CACT,KAAK,CAAE,GAAG,CACV,AAED,AAAA,sBAAsB,AAAC,CACrB,WAAW,CAAE,KAAK,CACnB,AAED,AAAA,sBAAsB,AAAC,CACrB,YAAY,CAAE,KAAK,CACpB,AAED,AAAA,2BAA2B,AAAC,CACxB,gBAAgB,CAAE,8LAA8L,CACnN,AAED,AAAA,2BAA2B,AAAC,CACxB,gBAAgB,CAAE,8LAA8L,CACnN,AAED,AAAA,cAAc,CAAC,GAAG,AAAC,CAClB,MAAM,CAAE,KAAK,CACb,UAAU,CAAE,OAAO,CACnB,MAAM,CAAE,MAAM,CACd,AAED,AAAA,oBAAoB,CAAC,GAAG,AAAC,CACxB,MAAM,CAAE,KAAK,CACb,UAAU,CAAE,OAAO,CACnB,MAAM,CAAE,MAAM,CACd,AAED,MAAM,mCACL,CAAA,AAAA,cAAc,CAAC,GAAG,AAAC,CACnB,MAAM,CAAE,KAAK,CACb,UAAU,CAAE,OAAO,CACnB,MAAM,CAAE,MAAM,CACb,AAED,AAAA,sBAAsB,AAAC,CACtB,WAAW,CAAE,KAAK,CAClB,AAED,AAAA,sBAAsB,AAAC,CACtB,YAAY,CAAE,KAAK,CACnB,CARA"
+}
