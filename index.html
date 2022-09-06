@@ -35,6 +35,10 @@
 			<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" id="heroVideo">
 				<source src="https://subc.ca/assets/media/hero-video.mp4" type="video/mp4">
 			</video>
+			<script>
+				var e = document.getElementById("heroVideo");
+				e.style.opacity = 0;
+			</script>
 			<div class="video_bg"></div>
 			<div class="container h-100">
 				<div class="d-flex h-100 text-center align-items-center">
@@ -109,9 +113,6 @@
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 		<script src="https://kit.fontawesome.com/5a5292124e.js" crossorigin="anonymous"></script>
 		<script>
-		var e = document.getElementById("heroVideo");
-		e.style.opacity = 0;
-
 		let videoLoad = document.getElementById('heroVideo');
 		videoLoad.addEventListener("canplaythrough", function() {
 			setTimeout(function() {
