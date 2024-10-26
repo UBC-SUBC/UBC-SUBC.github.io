@@ -75,18 +75,42 @@
 </nav>
 		<div class="content-area container">
 			<div class="content container p-5">
-				<h1 class="pt-3 pb-4">2022-2023</h1>
-				<p><img src="https://subc.ca/assets/media/big-ricky-render.JPG"><p>
-				<p><img style="width: 80%" src="https://subc.ca/assets/media/big-ricky-render.JPG" class="img-fluid d-block mx-auto pt-2" width="1024" height="512" alt="Render of the 2022-2023 submarine" /></p>
-				<p>SUBC is currrently building a new propeller-driven, human-powered submarine where the pilot is seated in a recumbent position. The trained pilot will be facing the stern of the submarine and will navigate through the course using an electronic vision system.</p>
-				<p>This year, our team will be competing at the International Submarine Races (ISR) in Maryland, where we intend to push our submarine to its limits in a 100-meter race and win against universities from all around the world.</p>
-				<h2>Sub-teams</h2>
-				<h3>Hull & Frame</h3>
-				<p>This year, the team designed a new hull by determining the space requirements of our pilot and all our other internal subsystems, all while conducting CFD simulations to minimize the drag acting on the submarine. The hull is made out of 7 layers of carbon fibre, utilizing a CNC machined wooden mould to carry out all of our layups. A new hatch and frame system was also designed to accommodate different pilots during competition.</p>
-				<h3>Mechanical Steering</h3>
-				<p>The mechanical steering system consists of a set of fins that allow the pilot to control the direction in which our submarine moves. The X-form configuration that we implemented this year allows the submarine to achieve pitch, yaw, and roll motions more efficiently compared to the traditional cartesian configuration. Besides having conducted CFD analyses on different airfoils to select the optimal fins for our submarine, this team has overcome some of the challenges of waterproofing motors, and has proven the success of their electromechanical system in past pool tests.</p>
-				<h3>Drivetrain</h3>
-				<p>The drivetrain team has been involved with designing a new chair and pedal mechanism for the pilot. As part of the development process, the team has conducted tests to determine our system’s potential input power, as well as to identify points where pilot ergonomics could be improved. The Drivetrain sub-team is also in charge of developing the chain drive and gearbox system, which are used to transmit the pilot’s input power to the propellers.</p>
+				<h1 class="pt-3 pb-4">Beagles</h1>
+				<p><img style="width: 80%" src="../../assets/media/beagles.jpg" class="img-fluid d-block mx-auto pt-2" width="1024" height="512" alt="Render of the submarine Beagles" /></p>
+				<p>General Arrangement</p>
+				<p>Sub-Teams: Drivetrain, Propulsion, Electrical, Hall & Frame, Dead Man’s Buoy (DMB), Mech Steering, Computer Aided Vision (SubSee), Data Acquisition System (DAQ)</p>
+				<h2>Drivetrain</h2>
+				<h3>Inner Shaft</h3>
+				<p><img style="width: 80%" src="../../assets/media/Drivetrain/Outer Shaft.png" class="img-fluid d-block mx-auto pt-2" width="1024" height="512" alt="Render of the Inner Shaft" /></p>
+				<ul>
+					<li>Driven by input shaft</li>
+					<li>Propeller is mounted to end of shaft and rotates with it</li>
+					<li>Shaft: ⌀12mm, Al 6061 T6</li>
+				</ul>
+				<h3>Outer Shaft</h3>
+				<ul>
+					<li>Driven by input shaft</li>
+					<li>Propeller is mounted to end of shaft and rotates with it</li>
+					<li>Shaft: ⌀0.875” ID, ⌀0.635” OD, Al 6061 T6</li>
+				</ul>
+				<h3>Bevel Gear and Pinion</h3>
+				<ul>
+					<li>Same 5:1 ratio used in previous designs</li>
+					<li>Straight-tooth gears were selected</li>
+					<li>Limited availability of helical gears in 5:1 ratio</li>
+					<li>Insufficient torsional strength of plastic gears</li>
+					<li>Material removed from center</li>
+					<li>Weight savings</li>
+					<li>Integration with spindle and pedals</li>
+				</ul>
+				<p>Purpose: Convert pilot rotary input into dual contra-rotating propeller rotation</p>
+				<p>Direct Drive System - Latest Model</p>
+				<ul>
+					<li>A bearing block added to address forces from the gears</li>
+					<li>Also addresses the cantilever problem</li>
+					<li>New spindle housing to match the length of the spindle</li>
+					<li>Important notes to consider after doing some tests</li>
+				</ul>
 				<h3>Propulsion</h3>
 				<p>This year, the propulsion system consists of a set of contra-rotating propellers, which have been designed with the help of specialized open-source software. In order to reach our target speed, all while generating a desirable thrust and torque with our current hull form, extensive CFD analyses were performed by Propulsion team members. This system is integrated to the drivetrain system using two hubs which are attached to the output shafts that leave the gearbox.</p>
 				<h3>Safety (DMB)</h3>
