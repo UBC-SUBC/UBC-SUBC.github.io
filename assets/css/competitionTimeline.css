@@ -1,0 +1,125 @@
+/* (File: assets/css/timeline.css) */
+
+body {
+    background-color: #f4f7f6;
+}
+
+/* Page Header */
+.competition-header {
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: #fff;
+    border-bottom: 1px solid #dee2e6;
+    margin-bottom: 3rem;
+}
+
+.competition-header h1 {
+    font-weight: 700;
+    color: #0c2344; /* UBC Blue */
+}
+
+/* The Timeline Wrapper */
+.timeline-section {
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+/* The Central Timeline Bar */
+.timeline-section::before {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #0c2344; /* UBC Blue */
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: 1;
+}
+
+/* A single timeline entry (the Bootstrap row) */
+.timeline-entry {
+    position: relative;
+    /* All animation properties have been removed */
+}
+
+/* The content box for text, images, etc. */
+.timeline-content {
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px; /* Space between entries on mobile */
+}
+
+/* The "dot" on the timeline */
+.timeline-content::after {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    border: 5px solid #0c2344; /* UBC Blue */
+    top: 20px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+/* The "arrow" pointing to the timeline */
+.timeline-content::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 25px;
+    width: 0;
+    z-index: 1;
+    border: 10px solid;
+}
+
+/* --- Left-Side Entries --- */
+.timeline-entry-left .timeline-content::after {
+    right: -45px;
+}
+
+.timeline-entry-left .timeline-content::before {
+    right: -20px;
+    border-color: transparent transparent transparent white;
+}
+
+/* --- Right-Side Entries --- */
+.timeline-entry-right .timeline-content::after {
+    left: -45px;
+}
+
+.timeline-entry-right .timeline-content::before {
+    left: -20px;
+    border-color: transparent white transparent transparent;
+}
+
+
+/* --- Responsive Mobile View --- */
+@media screen and (max-width: 767px) {
+    /* Move the line to the left */
+    .timeline-section::before {
+        left: 31px;
+    }
+
+    /* Make all content boxes sit on the right */
+    .timeline-entry-left,
+    .timeline-entry-right {
+        padding-left: 55px; /* Space for the line */
+    }
+
+    /* Move all dots and arrows to the left */
+    .timeline-content::after,
+    .timeline-entry-right .timeline-content::after {
+        left: -58px;
+    }
+
+    .timeline-content::before,
+    .timeline-entry-right .timeline-content::before {
+        left: -20px;
+        border-color: transparent white transparent transparent;
+    }
+}
