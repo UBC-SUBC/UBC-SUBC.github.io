@@ -429,3 +429,24 @@ footer {
     max-width: 100% !important;
   }
 }
+/* ===== FIX: Navbar visibility on white pages ===== */
+.navbar {
+  background-color: #ffffff !important; /* white background for contrast */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.navbar .nav-link {
+  color: #0c2344 !important; /* dark navy text */
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.nav-active-link {
+  color: #004a91 !important; /* blue hover/active color */
+  text-decoration: none;
+}
+
+.navbar-brand svg.logo {
+  fill: #0c2344 !important; /* makes sure the logo shows up on white */
+}
