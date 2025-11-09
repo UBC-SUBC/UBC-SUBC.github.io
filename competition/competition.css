@@ -450,3 +450,12 @@ footer {
 .navbar-brand svg.logo {
   fill: #0c2344 !important; /* makes sure the logo shows up on white */
 }
+
+/* ==== FINE-TUNE IMAGE SIZE FOR 2024 SECTION ==== */
+#2024 .media-left img,
+#2024 .media-right img,
+#2024 .media-left video {
+  max-width: 85%; /* smaller but still proportional */
+  margin: 0 auto;
+  display: block;
+}
