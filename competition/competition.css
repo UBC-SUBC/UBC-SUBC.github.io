@@ -3,6 +3,9 @@ body {
   font-family: "Poppins", "Segoe UI", sans-serif;
   color: #222;
 }
+body {
+  padding-top: 20px;
+}
 
 /* Timeline layout */
 .timeline-wrapper {
@@ -455,10 +458,6 @@ footer {
 nav.navbar {
   margin-bottom: 25px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); /* optional: makes it look cleaner */
-}
-/* Add clear space between navbar and page heading on competition page */
-.content-area {
-  margin-top: 3rem; /* try 3rem first; adjust to taste */
 }
 
 /* ==== FINE-TUNE IMAGE SIZE FOR 2024 SECTION ==== */
