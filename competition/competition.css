@@ -451,6 +451,12 @@ footer {
   fill: #0c2344 !important; /* makes sure the logo shows up on white */
 }
 
+/* Add space below navbar */
+nav.navbar {
+  margin-bottom: 25px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); /* optional: makes it look cleaner */
+}
+
 /* ==== FINE-TUNE IMAGE SIZE FOR 2024 SECTION ==== */
 #2024 .media-left img,
 #2024 .media-right img,
