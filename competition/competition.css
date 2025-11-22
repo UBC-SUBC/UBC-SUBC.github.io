@@ -2,9 +2,9 @@
    GLOBAL STYLES
    ========================================================= */
 body {
-  background: linear-gradient(180deg, #0f3578 0%, #5e5eff 100%);
+  background: linear-gradient(180deg, #ffffff 0%, #53ddff 100%);
   font-family: "Poppins", "Segoe UI", sans-serif;
-  color: #ffffff;
+  color: #000000;
   padding-top: 20px;
 }
 
@@ -62,7 +62,7 @@ nav.navbar {
 
 .year-link:hover,
 .year-link.active {
-  color: #0c2344;
+  color: #4bc0ff;
   transform: translateX(4px);
 }
 
