@@ -54,7 +54,7 @@ nav.navbar {
 .year-link {
   font-weight: 600;
   font-size: 1.3rem;
-  color: #ffffff;
+  color: #000000;
   margin: 0.3rem 0;
   cursor: pointer;
   transition: color 0.3s, transform 0.2s;
