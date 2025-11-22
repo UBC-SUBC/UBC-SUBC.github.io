@@ -4,7 +4,7 @@
 body {
   background: linear-gradient(180deg, #0f3578 0%, #5e5eff 100%);
   font-family: "Poppins", "Segoe UI", sans-serif;
-  color: #ffffff;
+  color: #0b51e9;
   padding-top: 20px;
 }
 
@@ -54,7 +54,7 @@ nav.navbar {
 .year-link {
   font-weight: 600;
   font-size: 1.3rem;
-  color: #dcf5ff;
+  color: #ffffff;
   margin: 0.3rem 0;
   cursor: pointer;
   transition: color 0.3s, transform 0.2s;
@@ -69,7 +69,7 @@ nav.navbar {
 .timeline {
   position: relative;
   flex: 1;
-  border-left: 3px solid #e0e0e0;
+  border-left: 3px solid #000000;
   padding-left: 2rem;
 }
 
