@@ -1,0 +1,30 @@
+body {
+  background: linear-gradient(180deg, #ffffff 0%, #53ddff 100%);
+  font-family: "Poppins", "Segoe UI", sans-serif;
+  color: #000000;
+  padding-top: 20px;
+}
+
+/* NAVBAR FIX */
+.navbar {
+  background-color: #ffffff !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.navbar .nav-link {
+  color: #000000 !important;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #910080 !important;
+}
+
+.navbar-brand svg.logo {
+  fill: #0c2344 !important;
+}
+
+nav.navbar {
+  margin-bottom: 25px;
+}
