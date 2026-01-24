@@ -5,21 +5,21 @@ body {
   background: linear-gradient(180deg, #3db3cd 0%, #53ddff 100%);
   font-family: "Poppins", "Segoe UI", sans-serif;
   color: #000000;
-  padding-top: 20px;
+  padding-top: 15px;
   min-height: 100vh;
 }
 
 /* Grouping common header styles to remove HTML redundancies */
 .subteam-block h1 {
   color: #0c2344;
-  font-weight: 800;
+  font-weight: 900;
   font-size: 3.5rem;
 }
 
 .subteam-block h2 {
   color: #0c2344;
   opacity: 0.9;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .subteam-block p.leads-list {
@@ -52,7 +52,7 @@ body {
 .lead-reveal-container {
   position: relative;
   width: 100%;
-  max-width: 480px; /* Constrains desktop size to prevent "insanely large" images */
+  max-width: 480px;
   overflow: hidden;
   border-radius: 15px;
   background-color: #0c2344;
