@@ -92,3 +92,6 @@ body {
 .subteam-block {
   scroll-margin-top: 120px; /* adjust to navbar height */
 }
+.logo path {
+  fill: #3a8dcd;
+}
